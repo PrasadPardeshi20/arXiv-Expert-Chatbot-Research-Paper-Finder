@@ -44,13 +44,11 @@ Make sure both files are saved in the same directory as the Streamlit app.
 
 
 ## 💻 How to Run the Chatbot
-1. Install dependencies:
-    pip install -r requirements.txt
+1. Install dependencies :- pip install -r requirements.txt
 
-2.Launch Streamlit app:
-   streamlit run UI.py
+2.Launch Streamlit app :- streamlit run UI.py
 
-3.You’ll see a clean UI like this:
+3.You’ll see a clean UI like this:-
 <img width="1920" height="1080" alt="Screenshot 2025-08-08 002738" src="https://github.com/user-attachments/assets/409eb290-6e74-4174-affb-a9e42f585003" />
 
 ## 📝 Technologies Used
