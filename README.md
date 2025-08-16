@@ -29,6 +29,7 @@ To keep the repository size under 25MB, large files are not included. You need t
 **Download These two files**
   
   **After downloading this repository as a ZIP and extracting it, move this two files into the root project directory, like this:**
+  
   | File/Folder       | Description                                    |
 |-------------------|------------------------------------------------|
 | `UI.py`           | Main Streamlit application file                |
