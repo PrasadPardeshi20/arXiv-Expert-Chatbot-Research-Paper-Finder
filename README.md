@@ -22,25 +22,23 @@ This is a domain-specific intelligent chatbot trained on the arXiv scientific pa
 To keep the repository size under 25MB, large files are not included. You need to manually download the dataset:
 
 - 🔗 Dataset: [arxiv-metadata-oai-snapshot.json](https://www.kaggle.com/datasets/Cornell-University/arxiv)
+- 🔗 cs_data.pkl file: [https://www.kaggle.com/datasets/prasadpardeshi07/arxiv-expert-chatbot-data]
+
 - Source: **Kaggle** (free to download)
-- Size: ~2.4 GB
+- Size: ~2.4 GB & ~1.2 GB
+**Download These two files**
+  
+  **After downloading this repository as a ZIP and extracting it, move this two files into the root project directory, like this:**
+  Project_Folder/
+│-- UI.py
+│-- requirements.txt
+|-- cs_index.faiss
+│-- cs_data.pkl      ✅ Add here
+│-- arxiv-metadata-oai-snapshot.json ✅ Add here
+
+  
 
 ---
-
-## 🧠 Generate `.pkl` and `.faiss` Files
-
-1. Place the downloaded JSON file in your project folder.
-2. Open and run the provided notebook:
-
-
-This notebook will:
-Filter papers by cs. category
-Create sentence embeddings of abstracts
-
-Generate:
-cs_data.pkl → contains DataFrame and FAISS index
-cs_index.faiss → FAISS search index
-Make sure both files are saved in the same directory as the Streamlit app.
 
 
 ## 💻 How to Run the Chatbot
