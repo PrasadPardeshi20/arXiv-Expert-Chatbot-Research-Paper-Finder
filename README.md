@@ -30,13 +30,14 @@ To keep the repository size under 25MB, large files are not included. You need t
   
   **After downloading this repository as a ZIP and extracting it, move this two files into the root project directory, like this:**
   
-  | File/Folder       | Description                                    |
+  **📂 Project Folder Structure**  
+
+| File/Folder       | Description                                    |
 |-------------------|------------------------------------------------|
 | `UI.py`           | Main Streamlit application file                |
 | `requirements.txt`| List of required Python dependencies           |
-| `cs_index.faiss` | FAISS index file            |
 | `cs_data.pkl` ✅   | Data file (download separately & place here)   |
-| `arxiv-metadata-oai-snapshot.json` ✅| Dataset (download separately & place here) |
+| `cs_index.faiss` ✅| FAISS index file                             |
 
   
 
